@@ -1,5 +1,10 @@
-function Header() {
-  return <h1>Hello from Header!</h1>;
-}
 
-export default Header;
+import React from "react";
+
+export default function Header() {
+  return (
+    <header >
+      <h2>Monthly Budget Tracker</h2>
+    </header>
+  );
+}
